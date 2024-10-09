@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Sofadi+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 360vh;
+    color: rgb(213, 213, 206);
+    font-family: 'Montserrat';
+    background: radial-gradient(circle, rgb(98, 130, 182), rgb(5, 32, 105));
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-around;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    width: 14vw;
+    min-width: 12rem;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 2vw;
+    min-width: 2rem;
+    height: 4vh;
+    background-color: rgb(5, 32, 105);
+    border-radius: 100%;
+    border: 8px solid rgb(213, 213, 206);
+}
+
+header .texts h1 {
+    font-family: 'Sofadi One';
+    font-size: clamp(20px, 1vw, 165px);
+    margin: 0;
+}
+
+header .texts p {
+    margin: 0;
+    font-family: 'Indie Flower';
+    font-weight: 600;
+    letter-spacing: 10px;
+    font-size: clamp(25px, 2.4vw, 165px);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(15px, 1.2vw, 165px);
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a {
+    border-radius: 20px;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(213, 213, 206);
+    cursor: pointer;
+}
+
+nav ul a:hover {
+    padding: 5px;
+    color: rgb(47, 78, 131);
+    background-color: rgb(213, 213, 206);
+    border-radius: 20px;
+    transition: 1s all;
+}
+
+header button {
+    all: unset;
+    background-color: rgb(213, 213, 206);
+    color: rgb(47, 78, 131);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 6rem;
+    font-size: clamp(15px, 1.1vw, 165px);
+}
+
+header button:hover {
+    transition: 1s all;
+    opacity: 0.7;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320vh;
+}
+
+.one {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    min-width: 36rem;
+}
+
+.one .texts {
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+    min-width: 25rem;
+}
+
+.one .texts h1 {
+    margin: 0;
+    font-size: clamp(15px, 1.5vw, 165px);
+}
+
+#text {
+    font-size: clamp(30px, 3vw, 165px);
+    font-weight: 600;
+    width: 100%;
+    margin: 6px 0px 6px 0px;
+}
+
+.one .paragrafo {
+    display: flex;
+    justify-content: end;
+    width: 85%;
+}
+
+.one .texts p {
+    display: flex;
+    font-size: clamp(12px, 1vw, 165px);
+    justify-content: end;
+    width: 20vw;
+    min-width: 15rem;
+    margin: 0;
+}
+
+.one .desktop {
+    width: 15vw;
+    min-width: 10rem;
+    display: block;
+    border-radius: 20px;
+}
+
+.one .mobile {
+    display: none;
+    width: 15vw;
+    min-width: 10rem;
+    border-radius: 20px;
+}
+
+.one img:hover {
+    opacity: 0.8;
+    transition: 1s all;
+}
+
+.one .icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    width: 82%;
+    gap: 1rem;
+}
+
+.one .icons img {
+    width: 3vw;
+    min-width: 2.5rem;
+    cursor: pointer;
+}
+
+.one .icons img:hover {
+    position: relative;
+    transform: rotate(360deg);
+    transition: 1s all;
+}
+
+hr {
+    width: 90vw;
+    margin: 0;
+}
+
+.two {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    min-width: 40rem;
+}
+
+.two .me_desktop {
+    width: 20vw;
+    min-width: 14rem;
+    border-radius: 20px;
+    display: block;
+}
+
+.two .me_mobile {
+    width: 20vw;
+    min-width: 14rem;
+    border-radius: 20px;
+    display: none;
+}
+
+.two .texts {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 22rem;
+}
+
+.two .texts h1 {
+    font-size: clamp(30px, 2.5vw, 165px);
+    margin: 0;
+}
+
+.two .texts h2 {
+    margin: 0;
+    color: rgb(255, 239, 14);
+    font-size: clamp(30px, 2.5vw, 165px);
+}
+
+.two .texts p {
+    font-size: clamp(15px, 1vw, 165px);
+}
+
+.two .icons {
+    display: flex;
+    margin-top: 1rem;
+    width: 10vw;
+    min-width: 8rem;
+    justify-content: space-between;
+}
+
+.two .icons img {
+    width: 3vw;
+    min-width: 2.5rem;
+    cursor: pointer;
+}
+
+.two .icons img:hover {
+    position: relative;
+    transform: rotate(360deg);
+    transition: 1s all;
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 85vw;
+    min-width: 42rem;
+}
+
+.tres h1 {
+    font-size: clamp(35px, 2.5vw, 165px);
+    margin: 1rem 0px 0px 0px;
+}
+
+span {
+    color: rgb(255, 239, 14);
+}
+
+.projetos {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.responsive {
+    display: flex;
+    width: 53vw;
+    min-width: 27rem;
+    justify-content: space-between;
+}
+
+.text_img {
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    height: 60vh;
+    min-width: 12rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(213, 213, 206);
+}
+
+.text_img img {
+    width: 20vw;
+    min-width: 13rem;
+}
+
+.text_img h1 {
+    font-size: clamp(20px, 2vw, 165px);
+    margin: 3rem 0px 5px 0px;
+    text-align: center;
+}
+
+.text_img p {
+    font-size: clamp(13px, 0.8vw, 165px);
+    width: 100%;
+    text-align: center;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.four h1 {
+    font-size: clamp(35px, 3vw, 165px);
+    text-align: center;
+    margin: 2rem 0px 2rem 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+form input {
+    all: unset;
+    color: rgb(213, 213, 206);
+    border: 1px rgb(213, 213, 206) solid;
+    border-radius: 5px;
+    min-width: 20rem;
+    padding: 20px 10px 20px 10px;
+    width: 30vw;
+}
+
+form input::placeholder {
+    color: rgb(213, 213, 206);
+}
+
+textarea {
+    all: unset;
+    border: 1px solid rgb(213, 213, 206);
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+    width: 30vw;
+    min-width: 20rem;
+    height: 15vh;
+}
+
+textarea::placeholder {
+    color: rgb(213, 213, 206);
+}
+
+form button {
+    background-color: rgb(213, 213, 206);
+    color: rgb(47, 78, 131);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    font-size: clamp(20px, 1.3vw, 165px);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 17vh;
+    justify-content: center;
+}
+
+.part_up {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    align-items: center;
+}
+
+.part_up .texts h1{
+    margin: 0;
+    font-family: 'Sofadi One';
+    font-size: clamp(20px, 1vw, 165px);
+}
+
+.part_up .texts p{
+    margin: 0;
+    font-family: 'Indie Flower';
+    font-size: clamp(25px, 2.4vw, 165px);
+}
+
+.part_up .icons {
+    width: 13vw;
+    display: flex;
+    gap: 2rem;
+    min-width: 12rem;
+}
+
+.part_up .icons img {
+    width: 3vw;
+}
+
+.terms {
+    display: flex;
+    width: 85vw;
+}
+
+.terms p {
+    text-align: center;
+    width: 7vw;
+    min-width: 7rem;
+}
+
+@media (max-width: 730px) {
+
+    header {
+        height: 10vh;
+        padding-top: 2rem;
+    }
+
+    header .logo {
+        width: 30vw;
+        min-width: 10rem;
+    }
+
+    .circle {
+        width: 1.7vw;
+        min-width: 12px;
+        height: 1.5vh;
+        margin-left: 1rem;
+    }
+
+    header .texts h1 {
+        font-size: clamp(14px, 2vw, 165px);
+    }
+
+    header .texts p {
+        font-size: clamp(20px, 4vw, 165px);
+    }
+
+    nav {
+        width: 50vw;
+        min-width: 10rem;
+    }
+
+    nav ul {
+        width: 100%;
+        min-width: 14rem;
+        font-size: clamp(14px, 2vw, 165px);
+    }
+
+    nav ul a {
+        width: 10vw;
+        min-width: 4rem;
+    }
+
+    nav ul a:hover {
+        width: 10vw;
+        min-width: 4rem;
+    }
+
+    header button {
+        display: none
+    }
+
+    .one {
+        width: 80vw;
+        height: 40vh;
+        min-width: 22rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .one .texts {
+        width: 60vw;
+        min-width: 5rem;
+    }
+
+    .one .texts h1{
+        font-size: clamp(10px, 2vw, 165px);
+    }
+
+    #text {
+        font-size: clamp(16px, 4vw, 165px);
+    }
+
+    .one .texts p{
+        font-size: clamp(9px, 1.5vw, 165px);
+        width: 100%;
+        min-width: 11rem;
+    }
+
+    .one .icons img {
+        width: 2vw;
+        min-width: 1.5rem;
+    } 
+
+    .one .desktop {
+        display: none;
+    }
+
+    .one .mobile {
+        display: block;
+        width: 20vw;
+        min-width: 8rem;
+    }
+
+    .two {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        width: 90vw;
+        min-width: 1rem;
+        height: 110vh;
+    }
+
+    .two .me_desktop {
+        display: none;
+    }
+
+    .two .me_mobile {
+        display: block;
+        width: 50vw;
+        min-width: 22rem;
+    }
+
+    .two .texts h1 {
+        font-size: clamp(24px, 4vw, 165px);
+    }
+
+    .two .texts h2 {
+        font-size: clamp(24px, 4vw, 165px);
+    }
+
+    .tres {
+        height: 140vh;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        min-width: 2rem;
+    }
+
+    .tres h1{
+        margin: 2rem 0rem 2rem 0rem;
+    }
+
+    .projetos {
+        height: 100vh;
+        gap: 1rem;
+        width: 90vw;
+        min-width: 26rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .responsive {
+        width: 85vw;
+        min-width: 25rem;
+    }
+
+    .text_img {
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .text_img img {
+        width: 35vw;
+        min-width: 1rem;
+    }
+
+    .text_img h1 {
+        font-size: clamp(21px, 4.2vw, 165px);
+        margin: 2rem 0px 1rem 0px;
+    }
+
+    .text_img p {
+        font-size: clamp(10px, 2vw, 165px);
+    }
+
+    .part_up .icons {
+        width: 41vw;
+        gap: 1rem;
+        justify-content: center;
+        min-width: 1rem;
+    }
+
+    .part_up .icons img{
+        width: 8vw;
+        min-width: 1rem;
+    }
+
+    .terms {
+        width: 96vw;
+    }
+
+    .terms p {
+        width: 25vw;
+        min-width: 1rem;
+        font-size: clamp(10px, 2vw, 165px);
+    }
+}
+
